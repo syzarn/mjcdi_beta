@@ -1,0 +1,23 @@
+{
+  "name": "mjcdi-converter",
+  "version": "1.0.0",
+  "description": "A CLI tool to convert between Bijoy (ANSI) and Unicode.",
+  "main": "mjcdi.js",
+  "scripts": {
+    "build": "pkg . --targets node18-win-x64 --output mjcdi.exe"
+  },
+  "bin": {
+    "mjcdi": "./mjcdi.js"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "yargs": "^17.7.2"
+  },
+  "pkg": {
+    "assets": [
+      "converter.js"
+    ]
+  },
+  "author": "syzarn",
+  "license": "GNU General Public License v3.0"
+}
