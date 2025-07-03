@@ -13,7 +13,9 @@
 - Supports reverse*: Unicode → Bijoy (*_festered with bugs and won't be worked on, cause **MJcdi**._)
 - Greedy substitution with post-processing reordering
 - ⚠️ Known issue: **Repha (`র্`)** in tri-, tetra- and penta-consonantal conjuncts. e.g.,
-  - `বজ্র্য` instead of `বর্জ্য`
+  - tri: `বজ্র্য` instead of `বর্জ্য`
+  - tetra: `আক্ষ্র্য` instead of `আর্ক্ষ্য`
+  - penta: `কাত্স্ন্র্য`/`কাৎর্স্ন্য` instead of `কার্ৎস্ন্য`/`কার্ত্স্ন্য`
 - PDF input → `.txt` output
 
 ---
