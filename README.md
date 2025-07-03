@@ -12,10 +12,10 @@
 - Convert digital Bijoy (ANSI) text in PDFs to Unicode
 - Supports reverse*: Unicode → Bijoy (*_festered with bugs and won't be worked on, cause **MJcdi**._)
 - Greedy substitution with post-processing reordering
-- ⚠️ Known issue: **Repha (`র্`)** in certain cases, notably in words starting with কর্ and some words with multiple rephas. e.g.,
-  - `র্কম` instead of `কর্ম`
-  - `র্কতৃত্ব` instead of `কর্তৃত্ব`
-  - `অন্র্তবর্তী` instead of `অন্তর্বর্তী`
+- ⚠️ Known issue: **Repha (`র্`)** in tri-, tetra- and penta-consonantal conjuncts. e.g.,
+  - tri: `বজ্র্য` instead of `বর্জ্য`
+  - tetra: `আক্ষ্র্য` instead of `আর্ক্ষ্য`
+  - penta: `কাৎর্স্ন্য`/`কাত্স্ন্র্য` instead of `কার্ৎস্ন্য`/`কার্ত্স্ন্য`
 - PDF input → `.txt` output
 
 ---
