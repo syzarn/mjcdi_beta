@@ -15,7 +15,7 @@
 - ⚠️ Known issue: **Repha (`র্`)** in tri-, tetra- and penta-consonantal conjuncts. e.g.,
   - tri: `বজ্র্য` instead of `বর্জ্য`
   - tetra: `আক্ষ্র্য` instead of `আর্ক্ষ্য`
-  - penta: `কাত্স্ন্র্য`/`কাৎর্স্ন্য` instead of `কার্ৎস্ন্য`/`কার্ত্স্ন্য`
+  - penta: `কাৎর্স্ন্য`/`কাত্স্ন্র্য` instead of `কার্ৎস্ন্য`/`কার্ত্স্ন্য`
 - PDF input → `.txt` output
 
 ---
